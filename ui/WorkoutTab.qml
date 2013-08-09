@@ -27,7 +27,7 @@ Tab {
             }
 
             Button {
-                text: 'Start Workout'
+                text: i18n.tr('Start Workout')
                 anchors.bottom: parent.bottom
                 anchors.horizontalCenter: parent.horizontalCenter
             }
