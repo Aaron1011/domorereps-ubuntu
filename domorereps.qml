@@ -34,13 +34,5 @@ MainView {
         WorkoutTab {
             objectName: "workoutTab"
         }
-
-        HelloTab {
-            objectName: "helloTab"
-        }
-
-        WorldTab {
-            objectName: "worldTab"
-        }
     }
 }
