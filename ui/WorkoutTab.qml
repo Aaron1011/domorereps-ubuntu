@@ -14,19 +14,27 @@ Tab {
 
         Page {
             id: workout
+            Column {
+                anchors {
+                    top: parent.top
+                    horizontalCenter: parent.horizontalCenter
+                }
+
+                Button {
+                    text: i18n.tr("Add Exercise")
+                    onClicked: pageStack.push(addExercise)
+                }
+            }
+
             Button {
                 text: 'Start Workout'
                 anchors.bottom: parent.bottom
                 anchors.horizontalCenter: parent.horizontalCenter
-                onClicked: {
-                    pageStack.push(test1)
-                    tab.title = "Add Exercise"
-                }
             }
         }
 
         Page {
-            id: test1
+            id: addExercise
             visible: false
         }
     }
