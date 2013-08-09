@@ -31,6 +31,10 @@ MainView {
             objectName: "exerciesTab"
         }
 
+        WorkoutTab {
+            objectName: "workoutTab"
+        }
+
         HelloTab {
             objectName: "helloTab"
         }
