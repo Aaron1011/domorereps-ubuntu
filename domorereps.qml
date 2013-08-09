@@ -27,6 +27,10 @@ MainView {
     Tabs {
         id: tabs
 
+        ExercisesTab {
+            objectName: "exerciesTab"
+        }
+
         HelloTab {
             objectName: "helloTab"
         }
