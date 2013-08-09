@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=domorereps
+Comment=My project description
+Exec=/usr/bin/qmlscene $@ /usr/share/domorereps/domorereps.qml
+Icon=qmlscene
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
